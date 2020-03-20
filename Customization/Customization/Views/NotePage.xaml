@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:Customization.Controls"
+             xmlns:effects="clr-namespace:Customization.Effects"
+             mc:Ignorable="d"
+             x:Class="Customization.Views.NotePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <controls:EntryRenders Placeholder="Title">
+                <controls:EntryRenders.Effects>
+                    <effects:FocusEffect/>
+                </controls:EntryRenders.Effects>
+            </controls:EntryRenders>
+            <controls:EntryRenders Placeholder="Note">
+                <controls:EntryRenders.Effects>
+                    <effects:FocusEffect/>
+                </controls:EntryRenders.Effects>
+            </controls:EntryRenders>
+            <Button Text="Aceptar"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
