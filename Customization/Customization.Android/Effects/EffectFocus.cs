@@ -26,7 +26,7 @@ namespace Customization.Droid.Effects
         {
             try
             {
-                backgroundColor = Android.Graphics.Color.LightGreen;
+                backgroundColor = Android.Graphics.Color.LightBlue;
                 Control.SetBackgroundColor(backgroundColor);
             }
             catch (Exception ex)
